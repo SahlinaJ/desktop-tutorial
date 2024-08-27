@@ -1,0 +1,34 @@
+/*
+    NOTE TO STUDENTS: 
+
+    This is the file you should be writing your CSS in 
+    for the Bulletin Board assignment.
+
+    Good luck, and have fun!
+*/
+
+.post-it{
+    display: inline-block;
+    background-color: yellow;
+    margin: 24px;
+    padding: 24px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.post-it2{
+    display: inline-block;
+    border: 25px solid rgb(199, 161, 147);
+    background-color: antiquewhite;
+    font-weight: 200px;
+    margin:24px;
+    padding:24px
+}
+
+.post-it3{
+    display: inline;
+    background-color: lightblue;
+    margin: 24px;
+    padding:24px;
+    
+}
+
+
