@@ -1,7 +1,27 @@
 #cheeseburger{
-    width:50%;
-    border: 250px pink solid;
+    width:100%;
+    background-color: pink;
     text-align: center;
     margin-right: auto;
     margin-left: auto;
+    border-radius: 250px;
 }
+#veggie{
+    width:100%;
+    background-color: green;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    color:white
+}
+#hotdog{
+    border: 10px dotted yellow;
+    width:100%;
+    background-color: red;
+    margin-right: auto;
+    margin-left: auto;
+    color:yellow;
+}
+.
+
+
