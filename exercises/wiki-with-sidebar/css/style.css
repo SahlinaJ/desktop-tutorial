@@ -39,3 +39,14 @@ body{
     padding: 0px 48px;
     flex: 1;
 }
+#main-content sup{
+    color:#1e1ecf;
+}
+.framed-image{
+    
+    display:inline-block;
+    border:10px solid lightpink;
+    background-color: rgb(228, 191, 197);
+    padding: 20px;
+    margin-inline-end: auto;
+}
