@@ -35,7 +35,7 @@ body{
 }
 
 #main-content{
-    max: width 800px;
+    max-width: 800px;
     padding: 0px 48px;
     flex: 1;
 }
