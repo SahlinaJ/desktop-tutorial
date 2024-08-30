@@ -16,12 +16,21 @@ body{
     grid-template-areas:". content sidebar .";
     margin:36px 0px;
 }
+
 #sidebar-content{
     /* background-color: lightblue; */
     grid-area: sidebar;
     padding:18px;
 
 }
+#sidebar-content2 img {
+    width:220px;
+    border: solid 10px rgb(198, 126, 138); ;
+    margin:0px;
+
+}
+
+
 #sidebar-content h2{
     background-color:rgb(198, 126, 138);
     color:white;
@@ -32,37 +41,44 @@ body{
 }
 #sidebar-content ul{
     background-color: rgb(190, 235, 190);
-    border:1px solid rgb(140, 28, 47);
+    border:5px solid rgb(198, 126, 138);
     margin:0px 0px 36px;
     list-style-type: none;
-    padding: 0px 12px;
+    padding: 0px 10px;
 }
 #sidebar-content a {
     color: rgb(205, 43, 70);
     text-decoration: none;
 }
 #sidebar-content li{
-    padding:8px 0px;
+    padding:20px 0px;
     border-bottom: 1px solid rgb(86, 193, 127);
 }
 /* psuedo-class */
 #sidebar-content li:last-child{
     border-bottom:0px;
 }
+
+
 #main-content{
     /* background-color: lightgreen; */
     grid-area: content;
-    margin:0px 36px;
+    margin:0px 20px;
     padding: 20px;
     background-color: rgb(190, 235, 190);
     color: rgb(117, 20, 36);
     border: 10px solid rgb(198, 126, 138);
 }
+
 #main-content img{
     width:300px;
     border: 10px dotted rgb(198, 126, 138);
 }
 #main-content2 img{
     border-radius: 250px;
+}
+#main-content3{
+    margin-left:60px;
+    padding:10px;
 }
 
