@@ -1,0 +1,68 @@
+*{
+box-sizing:border-box;
+}
+#grid-layout{
+   background: radial-gradient( at 75% 100%,green,pink);
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body{
+    margin:0px
+    font-family:sans-serif;
+}
+
+#grid-layout{
+    display:grid;
+    grid-template-columns: 1fr 450px 250px 1fr ;
+    grid-template-areas:". content sidebar .";
+    margin:36px 0px;
+}
+#sidebar-content{
+    /* background-color: lightblue; */
+    grid-area: sidebar;
+    padding:18px;
+
+}
+#sidebar-content h2{
+    background-color:rgb(198, 126, 138);
+    color:white;
+    margin: 0px;
+    padding:12px;
+    font-size: 18px;
+
+}
+#sidebar-content ul{
+    background-color: rgb(190, 235, 190);
+    border:1px solid rgb(140, 28, 47);
+    margin:0px 0px 36px;
+    list-style-type: none;
+    padding: 0px 12px;
+}
+#sidebar-content a {
+    color: rgb(205, 43, 70);
+    text-decoration: none;
+}
+#sidebar-content li{
+    padding:8px 0px;
+    border-bottom: 1px solid rgb(86, 193, 127);
+}
+/* psuedo-class */
+#sidebar-content li:last-child{
+    border-bottom:0px;
+}
+#main-content{
+    /* background-color: lightgreen; */
+    grid-area: content;
+    margin:0px 36px;
+    padding: 20px;
+    background-color: rgb(190, 235, 190);
+    color: rgb(117, 20, 36);
+    border: 10px solid rgb(198, 126, 138);
+}
+#main-content img{
+    width:300px;
+    border: 10px dotted rgb(198, 126, 138);
+}
+#main-content2 img{
+    border-radius: 250px;
+}
+
