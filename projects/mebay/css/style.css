@@ -1,0 +1,113 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background:white;
+    margin:0px
+    font-family:sans-serif;
+    display:flex;
+    justify-content:center;
+}
+#grid-layout{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    text-align:left;
+    grid-template-areas: 
+        "header header header"
+        "main main sidebar";
+    border: lightblue 2px solid;
+    padding: 25px;
+    align-items: center;
+}
+
+#header{
+   
+    grid-area: header;
+    text-align: center;
+    padding:0px;
+}
+#main img {
+    width:450px;
+    padding: 24px;
+    border: lightblue 2px solid;
+    background-color: rgb(240, 246, 246);
+
+}
+
+#sidebar{
+  
+    grid-area: sidebar;
+    padding:0px 24px;
+    border:1px solid lightgray;
+    padding: 10px;
+    margin: 10px;
+}
+#MeBay {
+    grid-area: main;
+    display:flex;
+    flex-wrap:wrap;
+    
+   
+}
+
+#main2 ul {
+    list-style-type: none;
+    padding: 5px;
+    margin: 20px;
+
+}
+#header a{
+    text-decoration: none;
+    border: solid lightblue 5px;
+    padding:15px;
+}
+#header #me{
+    color:red;
+    font-size: 45px;
+}
+#bay{
+    color:blue;
+    font-size: 45px;
+}
+
+#sidebar ul{
+    padding: 12px 0px;
+    margin: 0px;
+    list-style-type: none;
+    border-radius: 3px solid blue;
+}
+#sidebar ul a{
+    text-decoration:none;
+    background-color: white;
+    border: 2px solid blue;
+    margin: 10px;
+    border-radius: 25px;
+    color: darkblue;
+    display: block;
+    padding: 12px;
+    text-align: center;
+}
+#sidebar ul a:hover {
+    color:white;
+    background-color:rgb(200, 200, 240);
+    border-radius:12px;
+    border:2px;
+}
+#sidebar3 ul a{
+    text-decoration:none;
+    background-color: blue;
+    color:white;
+    border: 2px solid blue;
+    margin: 10px;
+    border-radius: 25px;
+    display: block;
+    padding: 12px;
+}
+#sidebar3 ul a:hover {
+    color:white;
+    background-color:rgb(64, 64, 218);
+    border-radius:12px;
+    border:2px;
+}
+
