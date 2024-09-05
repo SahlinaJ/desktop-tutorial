@@ -10,7 +10,7 @@ body{
 }
 #grid-layout{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 4fr 4fr 4fr;
     justify-content: center;
     text-align:left;
     grid-template-areas: 
@@ -20,6 +20,7 @@ body{
     padding: 25px;
     align-items: center;
 }
+
 
 #header{
    
