@@ -1,0 +1,134 @@
+/*
+    Write your CSS for the assignment here.
+
+    You shouldn't need to modify the HTML;
+    however, you are allowed to. 
+    
+    Just be aware that you may break some
+    of the setup.css styling if you do so.
+*/
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#section-3 .card-style-3{
+
+    border: rgb(241, 221, 8, 0.952) solid  15px;
+    border-radius: 25px;
+    width: 400px;
+    margin: 25px;
+    padding:20px;
+    padding-bottom: 50px;
+    
+
+}
+.card-container{
+    
+}
+.card-container  .card-style-3 h2{
+    font-size: 30px;
+    text-align: left;
+   
+    
+}
+.card-container .data{
+    border: goldenrod solid 3px;
+    padding-left: 10px;
+    text-align: left;
+    margin: 0px;
+    font-size: 11px;
+    font-weight: bold;
+
+    
+}
+.card-container .details{
+    background-image: radial-gradient(
+        at top right, 
+        #f9e505,
+        #ac7206
+        );
+        font-weight: bold;
+        font-size: 12px;
+        text-align: center;
+    
+}
+.card-container .description {
+    
+    
+    font-size: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+    
+
+}
+.card-container .description  span{
+    
+        font-weight: bold;
+        font-size: 20px;
+        text-align: center;
+    
+}
+.card-style-3 img{
+    width: 100%;
+    height: 50vq;
+    border: goldenrod 5px solid;
+    align-items: center;
+    
+}
+.card-container .power{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+#pokemon-card-1{
+    background-image: radial-gradient(
+        at top right, 
+        #03ba46,
+        #22ed98
+        );
+        padding:48px;
+}
+
+    
+#pokemon-card-2{
+    background-image: radial-gradient(
+        at top right, 
+        #03ba46,
+        #22ed98
+        );
+        padding:48px;
+    
+}
+
+#pokemon-card-3{
+    background-image: radial-gradient(
+        at top right, 
+        #e24102dd,
+        #ed9522
+        );
+        padding:48px;
+}
+
+#pokemon-card-4{
+    background-image: radial-gradient(
+        at top right, 
+        #0ab6f5dd,
+        #9bb8e1
+        );
+        padding:48px;
+}
+.pokemon-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.attack{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+}
