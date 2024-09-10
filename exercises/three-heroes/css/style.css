@@ -1,0 +1,115 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0px
+    font-family:sans-serif;
+}
+
+
+#index {
+    background-image: url("../images/images/smelly\ .JPG");
+    height: 100vh; 
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#index h1 {
+    font-size: 5vw;
+    margin-top: 30vw;
+    padding-left: 5vw;
+    color: rgb(28, 2, 2);
+}
+#index h2 {
+    font-size: 10vw;
+    margin-top: 30vw;
+    padding-left: 5vw;
+}
+#index a{
+    
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+.spacer { 
+    height: 20vh;
+    background-image: url("../images/images/OIP\ \(8\).jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#hero-2 {
+    background-image: url("../images/images/MANSCAPEDBODYSPRAY_24_1080x1080_crop_center.webp");
+    height: 100vh;
+    background-size: cover;
+    background-position: [center center];
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+#hero-2 h2{
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: goldenrod;
+}
+#hero-2 h4{
+    font-size: 10vw;
+    margin:0px 5vw 0px 0px;
+    color: white;
+}
+#hero-2 h5{
+    font-size: 4vw;
+    margin:0px 5vw 0px 0px;
+    color: white;
+
+}
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+#hero-3 {
+    background-image: url("../images/images/fresh..jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+#hero-3 .hero-content{
+    position: absolute;
+    top: 10%;
+    left: 15%; 
+
+}
+#hero-3 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: rgb(51, 10, 10);
+}
+#hero-3 h4{
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+#hero-3 a {
+    font-size: 2vw;
+    display: inline-block;
+    background-color: black;
+    color:white;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
