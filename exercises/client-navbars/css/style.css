@@ -1,0 +1,136 @@
+
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0px
+    font-family:sans-serif;
+}
+#navbar {
+    background: linear-gradient(to bottom , rgb(3, 69, 3),  #061906);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar a {
+    text-decoration: none;
+    color:white;
+    padding:24px;
+    font-weight: bold;
+}
+#navbar h2{
+    padding: 10px;
+    margin-right: auto;
+    color: #ececec;
+}
+#navbar3 {
+
+    font-size: 20px;
+    background: linear-gradient(to bottom , rgb(109, 168, 216),  #dffe30);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: ;
+}
+#navbar3 .cta-button {
+    background-color: lightblue;
+    color:rgb(71, 20, 189);
+    border-radius: 25px;
+    padding: 10px 15px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+#navbar3 a {
+    text-decoration: none;
+    color:orange;
+    padding:24px;
+    font-weight: bold;
+}
+#navbar3 h2{
+    font-size:20px;
+    padding: 10px;
+    margin-right: auto;
+    color: #0d6ebe;
+}
+#navbar4 {
+    background: linear-gradient(to bottom , orange, white, black );
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#navbar4 a {
+    text-decoration: none;
+    color:white;
+    padding:24px;
+}
+#navbar img{
+    width: 200px;
+}
+#navbar4 #logo{
+    margin-right: auto;
+}
+#navbar4 .cta-button {
+    background-color: orange;
+    color:black;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+#layout4 {
+    width:800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
+
+#header4 {
+    position: sticky;
+    top: 0px;
+}
+#navbar4-bottom {
+    background: linear-gradient( to bottom, orange, white, black) ;
+    display: flex;
+    justify-content: space-between;
+}
+#navbar4-bottom a{
+    text-decoration: none;
+    color: black;
+    font-weight:bold;
+    padding: 12px 36px;
+}
+#footer {
+    background: linear-gradient(to bottom, teal, #01482e);
+    color: white;
+    padding: 12px;
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-columns-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-columns-navbar div{
+    display: flex;
+    flex-direction: column;
+}
+#footer-columns-navbar a{
+    padding: 8px 0px;
+}
