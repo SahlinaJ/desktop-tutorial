@@ -56,9 +56,21 @@ body{
     color: #0d6ebe;
 }
 #navbar4 {
-    background: linear-gradient(to bottom , orange, white, black );
+    background-color: black;
+    color:white;
     display:flex;
     justify-content: space-between;
+    align-items: center;
+}
+#navbar4 h1 {
+    margin-left: 100px;
+    font-size:20px,
+    display: flex;
+    align-items: center;
+}
+#navbar4 h3 {
+    font-size:20px,
+    display: flex;
     align-items: center;
 }
 #navbar4 a {
@@ -72,16 +84,16 @@ body{
 #navbar4 #logo{
     margin-right: auto;
 }
-#navbar4 .cta-button {
+#navbar4-bottom .cta-button {
     background-color: orange;
     color:black;
-    border-radius: 36px;
-    padding: 16px 24px;
+    border-radius: 25px;
+    padding:  24px;
     font-size: 20px;
     font-weight: bold;
-    min-width: 150px;
+    min-width: 200px;
     text-align: center;
-    margin-right: 24px;
+    margin-right: 25px;
 }
 #layout4 {
     width:800px;
@@ -98,6 +110,7 @@ body{
     background: linear-gradient( to bottom, orange, white, black) ;
     display: flex;
     justify-content: space-between;
+    padding: 20px;
 }
 #navbar4-bottom a{
     text-decoration: none;
@@ -105,9 +118,10 @@ body{
     font-weight:bold;
     padding: 12px 36px;
 }
-#footer {
-    background: linear-gradient(to bottom, teal, #01482e);
+#footer-navbar {
+    background: linear-gradient(orange, black);
     color: white;
+    width: 800px;
     padding: 12px;
 }
 #footer a{
@@ -115,22 +129,24 @@ body{
     color: white;
 }
 #footer-navbar {
-    width: 800px;
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
 }
-#footer-columns-navbar {
-    width: 800px;
-    margin: 0px auto;
-    padding: 48px 0px;
+#footer-navbar {
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    
+}
+#footer-navbar a{
+    color: white;
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
-}
-#footer-columns-navbar div{
-    display: flex;
-    flex-direction: column;
-}
-#footer-columns-navbar a{
-    padding: 8px 0px;
+    text-decoration: none;
+    color:white;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
 }
