@@ -1,54 +1,147 @@
 *{
     box-sizing:border-box;
 }
+
 body{
     margin:0px;
     font-family:sans-serif;
+    background-image: url("../images/pink\ pawprints.jpeg");
+    
 }
-#adopt{
+
+
+#hero{
+    width: 100%;
+    height:100px;
+    padding: 100px;
+    background-size: cover;
+    background-position: center;
     display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items: center;
+    background-color: white;
+    
+}
+#hero img{
+    max-width: 150%;
+    height: 500px;
+    padding: 20px;
+    background-color: #fa75ac;
     justify-content: center;
+    border: #db3884 solid 10px;
+    
 }
-#navbar {
+#hero h2{
+    background-color: #f084bc;
+    border: #db3884 solid 10px;
+    border-radius: 25px;
+    padding: 20px;
+    color: white;
+    justify-content: left;
+    margin-top: 200px;
+    font-size: 100px;
+}
 
-    font-size: 20px;
-    background-color: rgb(251, 166, 91);
-    border: #6b3d05 solid 5px;
-    display:flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: ;
-}
-
-#navbar a {
-    text-decoration: none;
-    color:rgb(55, 41, 2);
-    padding:24px;
-    font-weight: bold;
-}
-#navbar h2{
-    font-size:20px;
-    padding: 10px;
-    margin-right: auto;
-    color: #6b3d05;
-}
-#hero-1{
-    background-image: url("../images/interaction.jpeg");
-    height: 100vh; 
-    background-size: cover;
-    background-position: center center;
+#navbar{
+    background: linear-gradient(to bottom, #eebced, #db3884);
     display: flex;
-    justify-content: flex-start;
     align-items: center;
 }
 
-#hero-1 {
-    font-size: 15vw;
-    padding-left: 10vw;
+#navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
 }
-.spacer { 
-    height: 22vh;
-    background-color: #ef992f;
-    background-size: cover;
-    background-attachment: fixed;
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
 }
+
+#navbar a:hover{
+    background:linear-gradient(to top, #eebced, #ff1b9c);
+}
+
+.dropdown-container {
+    position: relative;
+}
+.dropdown-menu {
+    position:absolute;
+    opacity:0;
+    visibility: hidden;
+    transition:
+        opacity 0.25s,
+        visibility 0.25s;
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu a {
+    background-color: rgb(232, 98, 120);
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .dropdown-menu a:hover {
+    background: rgb(249, 160, 209);
+}
+#bear p{
+    display: inline-block;
+    max-width: 150%;
+    min-width: 50px;
+    margin: 20px;
+    margin-bottom: 0px 10px;
+    margin-top: 300px;
+    padding: 50px;
+    background-color: #fdbae7;
+    border: #db3884 solid 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #db3884;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+#blue p{
+    display: inline-block;
+    max-width: 150%;
+    min-width: 50px;
+    margin: 20px;
+    margin-bottom: 0px 10px;
+    margin-top: 300px;
+    padding: 50px;
+    background-color: #fdbae7;
+    border: #db3884 solid 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #db3884;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+#venti p{
+    display: inline-block;
+    max-width: 150%;
+    min-width: 50px;
+    margin: 20px;
+    margin-bottom: 0px 10px;
+    margin-top: 300px;
+    padding: 50px;
+    background-color: #fdbae7;
+    border: #db3884 solid 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #db3884;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
