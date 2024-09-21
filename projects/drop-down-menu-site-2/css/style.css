@@ -1,0 +1,170 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+    font-family:sans-serif;
+    background-image: url("../images/pink\ pawprints.jpeg");
+}
+#navbar{
+    background: linear-gradient(to bottom, #eebced, #db3884);
+    display: flex;
+    align-items: center;
+}
+
+#navbar a{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar a:hover{
+    background:linear-gradient(to top, #eebced, #ff1b9c);
+}
+
+.dropdown-container {
+    position: relative;
+}
+.dropdown-menu {
+    position:absolute;
+    opacity:0;
+    visibility: hidden;
+    transition:
+        opacity 0.25s,
+        visibility 0.25s;
+}
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+.dropdown-menu a {
+    background-color: rgb(232, 98, 120);
+    width: 100%;
+    min-width: 200px;
+}
+#navbar .dropdown-menu a:hover {
+    background: rgb(249, 160, 209);
+}
+
+.spacer {
+    height: 15px;
+}
+
+#hero {
+    background-image: url("../images/wildlife.jpeg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hero-content img{
+    margin-top: 200px;
+    max-width: 70vh;
+    border: #db3884 solid 20px;
+    padding: 25px 15px;
+    padding-top: 10px;
+    background-color: white;
+}
+#hero .hero-content {
+   
+    text-align: center;
+    color: hsl(332, 69%, 54%) ;
+    padding:5px 5px;
+    margin: 1px;
+}
+#hero h2{
+    font-size: 5vw;
+    margin-bottom: 5vh;
+    padding: 25px;
+
+}
+#hero h4{
+    font-size: 4vw;
+    margin:0px;
+}
+#hero a {
+    font-size: 2.5vw;
+    display: inline-block;
+    background-color: #ff1b9c;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 24px;
+    margin:5vh 7vh 10vh;
+}
+
+#center-column{
+    margin-top: 50px;
+    block-size: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 150px;
+    width: 90%;
+    padding: 20px;
+    background-color: #fdbae7;
+    border: #db3884 solid 25px;
+    border-radius: 25px;
+    font-weight: bold;
+    color: #db3884;
+    justify-content: center;
+    text-align: center;
+    font-size: 25px;
+}
+#bear img{
+    margin: 300px;
+    margin-bottom: 50px;
+    padding: 0px;
+    width: 100%;
+    background-color: #fa75ac;
+    justify-content: center;
+    border: #db3884 solid 10px;    
+}
+#blue{
+    margin: 300px;
+    margin-bottom: 50px;
+    width:100%;
+    background-color: #fa75ac;
+    justify-content: center;
+    border: #db3884 solid 10px;     
+}
+#venti img{
+    margin: 300px;
+    margin-bottom: 50px;
+    padding: 0px;
+    width: 150%;
+    background-color: #fa75ac;
+    justify-content: center;
+    border: #db3884 solid 10px;    
+}
+@media screen and (max-width: 617px) {
+#nav{
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media screen (min-width:480px){
+    #nav{
+        flex-direction: column;
+        align-items: center;
+    }
+       
+    #ligern img {
+        width: 200px;
+        
+    }
+}
+
+
+
+

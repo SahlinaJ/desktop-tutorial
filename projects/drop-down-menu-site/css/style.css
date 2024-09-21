@@ -9,7 +9,15 @@ body{
     
 }
 
-
+.adopt {
+    width:50%;
+    min-width: 50%;
+    margin: 0px auto,
+}
+.adopt2 {
+    display: inline-block;
+    width: 50%;
+}
 #hero{
     width: 100%;
     height:100px;
@@ -41,6 +49,15 @@ body{
     justify-content: left;
     margin-top: 200px;
     font-size: 100px;
+}
+#pet-image img{
+    
+    max-width: 150%;
+    height: 500px;
+    padding: 20px;
+    background-color: #fa75ac;
+    justify-content: center;
+    border: #db3884 solid 10px;    
 }
 
 #navbar{
@@ -94,7 +111,6 @@ body{
 #bear p{
     display: inline-block;
     max-width: 150%;
-    min-width: 50px;
     margin: 20px;
     margin-bottom: 0px 10px;
     margin-top: 300px;
@@ -111,7 +127,6 @@ body{
 #blue p{
     display: inline-block;
     max-width: 150%;
-    min-width: 50px;
     margin: 20px;
     margin-bottom: 0px 10px;
     margin-top: 300px;
@@ -128,7 +143,6 @@ body{
 #venti p{
     display: inline-block;
     max-width: 150%;
-    min-width: 50px;
     margin: 20px;
     margin-bottom: 0px 10px;
     margin-top: 300px;
@@ -142,6 +156,68 @@ body{
     text-align: center;
     font-size: 25px;
 }
+#pet-info {
+    display: inline-block;
+    width: 80%;
+}
+/*Tablet Breakpoint */
+@Media screen and (max-width:864px) {
+    body{
+        max-width:none;
+        
+    }
+    #navbar{
+        flex: column;
+    }
+    .dropdown-container h1{
+        font-size: 100px;
+
+    }
+   
+    .adopt{
+        grid-template-columns: 1fr ;
+        grid-template-areas: 
+        "img 1",
+        "txt 1";
+    }
+
+}
+
+/*Mobile Breakpoint */
+@media screen and (max-width: 480px) {
+    body {
+        
+    }
+
+    #adopt {
+        /*flex-wrap: wrap;*/
+        max-width: 480px;
+        flex-direction: column;
+       
+    }
+    
+    .dropdown-container h1{
+        margin: 10px;
+        font-size: 32px;
+    }
+    .content-container{
+        text-align: center;
+    }
+    .adopt{
+        grid-template-columns: 1fr ;
+        grid-template-areas: 
+        "txt 1",
+        "img 1";
+    }
+    .adopt p{
+        height: 600px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #pet-image {
+        width: 250px;
+    }
 
 
 
