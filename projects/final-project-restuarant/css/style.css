@@ -1,0 +1,114 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    margin:0px;
+    font-family:sans-serif;
+    background-color: #619f61;
+}
+#parties {
+    background-color: rgb(5, 131, 89);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: bold;
+    position: sticky;
+    margin-bottom: 10px;
+    
+}
+#parties h4{
+    padding:10px;
+    font-size: 22px;
+}
+#parties a {
+    background-color: rgb(189, 243, 203);
+    margin: 10px;
+    padding: 32px;
+    text-decoration: none;
+    color: rgb(48, 108, 197);
+    font-weight: bold;
+    border-radius: 45px;
+    min-width: 150px;
+}
+#navbar {
+    background: linear-gradient(to bottom , rgb(0, 90, 128), rgb(215, 
+    215, 148), #619f61);
+    display:flex;
+    justify-content:center; 
+    align-items: center;
+    margin-bottom: 50px;
+    position: sticky;
+    top: 0px;
+
+}
+#navbar a {
+    text-decoration: none;
+    color:rgb(48, 108, 197);
+    padding:24px;
+    font-weight: bold;
+    font-size: 30px; 
+    justify-content: space-between;
+
+    
+}
+
+#hero {
+    background-image: url("../images/Belizean\ food.jpg");
+    width: 800;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+}
+#hero h1 {
+    color: rgb(132, 235, 231);
+    margin: 300px;
+    margin-bottom: 500px;
+    font-size: 400%;
+
+}
+
+#footer {
+    margin-bottom: 50px auto;
+    background: linear-gradient (to top rgb(196, 217, 139), #619f61);
+    color: white;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+    padding:12px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-columns {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-navbar{
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+#footer-navbar a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    justify-content: space-between;
+}
+#footer-navbar span{
+    color: white;
+    font-weight: bold;
+}
