@@ -40,11 +40,12 @@ body{
     justify-content:center; 
     padding: 25px;
     align-items: center;
-    margin: 20px;
+    margin: 25px;
     margin-bottom: 5px;
     position: sticky;
     top: 0px;
     flex-wrap: flex;
+    position:sticky;
 }
 
 
@@ -223,6 +224,114 @@ body{
     display: in;
     
 }
+#button {
+    transition: 
+        background-color 0.7s,
+        box-shadow 0.7s,
+        transform 0.7s;
+}
+#button:hover a{
+    background-color: #dfedbb;
+    box-shadow: 4px 4px 4px;
+    transform: translateY(-5);
+
+}
+#button1 {
+    transition: 
+        background-color 0.7s,
+        box-shadow 0.7s,
+        transform 0.7s;
+}
+#button1:hover a{
+    background-color: #dfedbb;
+    box-shadow: 4px 4px 4px;
+    transform: translateY(-5);
+
+}
+#button2 {
+    transition: 
+        background-color 0.7s,
+        box-shadow 0.7s,
+        transform 0.7s;
+}
+#button2:hover a{
+    background-color: #dfedbb;
+    box-shadow: 4px 4px 4px;
+    transform: translateY(-5);
+
+}
+#button3 {
+    transition: 
+        background-color 0.7s,
+        box-shadow 0.7s,
+        transform 0.7s;
+}
+#button3:hover a{
+    background-color: #dfedbb;
+    box-shadow: 4px 4px 4px;
+    transform: translateY(-5);
+
+}
+#button4 {
+    transition: 
+        background-color 0.7s,
+        box-shadow 0.7s,
+        transform 0.7s;
+}
+#button4:hover a{
+    background-color: #dfedbb;
+    box-shadow: 4px 4px 4px;
+    transform: translateY(-5);
+
+}
+#button5 {
+    transition: 
+        background-color 0.7s,
+        box-shadow 0.7s,
+        transform 0.7s;
+}
+#button5:hover a{
+    background-color: #dfedbb;
+    box-shadow: 4px 4px 4px;
+    transform: translateY(-5);
+
+}
+#button6 {
+    transition: 
+        background-color 0.7s,
+        box-shadow 0.7s,
+        transform 0.7s;
+}
+#button6:hover a{
+    background-color: #dfedbb;
+    box-shadow: 4px 4px 4px;
+    transform: translateY(-5);
+
+}
+#button7 {
+    transition: 
+        background-color 0.7s,
+        box-shadow 0.7s,
+        transform 0.7s;
+}
+#button7:hover a{
+    background-color: #dfedbb;
+    box-shadow: 4px 4px 4px;
+    transform: translateY(-5);
+
+}
+#button8 {
+    transition: 
+        background-color 0.7s,
+        box-shadow 0.7s,
+        transform 0.7s;
+}
+#button8:hover a{
+    background-color: #dfedbb;
+    box-shadow: 4px 4px 4px;
+    transform: translateY(-5);
+
+}
 
 
 .menu-gallery img p a{
@@ -232,4 +341,25 @@ body{
 }
 .menu-gallery h3{
   margin: 24px auto;
+}
+@media screen and (max-width:900px) {
+    #navbar{ 
+        flex-direction: column;
+        align-items: center center;
+    }
+    #grid {
+        flex-direction: column;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+    }
+}
+@media screen and (max-width:450px) {
+ #navbar{
+    flex-direction: column;
+    align-items: center;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+        "grid grid";
+
+ }
 }
