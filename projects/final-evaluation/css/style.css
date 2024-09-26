@@ -67,6 +67,17 @@ body{
     font-size: 25px;
     font-weight: bold;
 }
+#second:hover a{
+    box-shadow: 2px 2px  #d3f29d33;
+    transform: translatey(-4px);
+
+}
+#second a{
+    transition: 
+    background-color 0.5s,
+    box-shadow  0.5s,
+    transform 0.5s;
+}
 #second h2{
     display: flex;
     justify-content: center;
